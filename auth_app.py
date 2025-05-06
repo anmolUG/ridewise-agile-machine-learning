@@ -9,6 +9,7 @@ from datetime import datetime
 st.set_page_config(page_title="RideWise", layout="centered")
 print("hello")
 print("hello2")
+print("yo")
 # Custom CSS Styling
 # Custom CSS for style
 st.markdown("""
