@@ -111,7 +111,7 @@ def decisionTree(X_train, X_test, y_train, y_test):
 #     report = classification_report(y_test, y_pred)
 #     return score1, report, clf
 
-
+print("yo")
 @st.cache_resource
 def Knn_Classifier(X_train, X_test, y_train, y_test):
     clf = KNeighborsClassifier(n_neighbors=5)
